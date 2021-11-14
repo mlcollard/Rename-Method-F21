@@ -17,5 +17,5 @@ add_executable(MemoesTest MemoesTest.cpp Memoes.cpp)
 
 # Run test program
 add_custom_target(test COMMENT "Test Memoes"
-                           COMMAND ./MemoesTest
-                           DEPENDS MemoesTest)
+                       COMMAND ./MemoesTest
+                       DEPENDS MemoesTest)
